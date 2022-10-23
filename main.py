@@ -17,9 +17,9 @@ class Student:
         return self.name != None
     def __len__(self):
         return self.height
-    # def info_student(self):
-    #     print(f'Name student {self.name}\n'
-    #           f'Age student {self.age} old')
+    def info_student(self):
+        print(f'Name student {self.name}\n'
+              f'Age student {self.age} old')
 
 
 stud1 = Student(name=None, age=18)
